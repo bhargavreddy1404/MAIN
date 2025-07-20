@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    padding:0px;
+}
+#header {
+    background-color: rgb(60, 13, 162);
+    padding: 40px 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    flex-wrap: wrap;
+border-radius: 0px;
+text-decoration: none;
+}
+
+.button{
+    height: 30px;
+    width: 100px;
+    background-color: azure;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color:skyblue;
+}
+#about{
+    color:aliceblue;
+}
+img{
+    height:350px;
+    width: 170px;
+    border-radius: 10px;
+}
+#footer {
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  line-height: 20px; 
+  z-index: 9999;
+}
+section{
+    height: 100vh;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+.form-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.form-row label {
+  width: 100px;
+  font-weight: bold;
+}
+
+.form-row input,
+.form-row select {
+  flex: 1;
+  padding: 8px;
+  font-size: 16px;
+}
+.form-buttons {
+  margin-top: 20px;
+  text-align: center; 
+}
+
+.form-buttons button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+}
+
+h2{
+    color:blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.top{
+    position: right;
+}
+.my-button {
+  position: fixed; /* or absolute */
+  right: 20px;
+  top: 590px; /* or bottom: 20px; */
+  width: 40px;
+height: 40px;
+border-radius: 50%;
+font-weight:bolder;
+font-size: 30px;
+background-color: #4CAF50; 
+color: white;
+border: none;
+cursor: pointer;
+text-align: center;
+}
+
+.skills{
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+
